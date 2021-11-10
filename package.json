@@ -1,0 +1,18 @@
+{
+  "name": "munge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "format": "purs-tidy format-in-place src/**/*.purs",
+    "test": "spago -x test.dhall test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "purescript": "^0.14.5",
+    "purs-tidy": "^0.6.2",
+    "spago": "^0.20.3"
+  }
+}
